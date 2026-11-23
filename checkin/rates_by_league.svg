@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="610" height="366" preserveAspectRatio="xMinYMin meet" viewBox="0 0 610 366" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="610" height="366"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-366)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="12" y="346" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,692) scale(1,-1)">Breakout rate by league</text>
+			<text x="12" y="329" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,658) scale(1,-1)">2009–2013 pooled player-years  |  percent</text>
+			<g transform="">
+				<g transform="">
+					<rect x="175.0" y="28.454545454545453" width="273.0263157894737" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="55.18181818181818" width="150.23500447627578" height="17.81818181818182" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="81.9090909090909" width="171.99612403100775" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="108.63636363636364" width="241.15085248332093" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="135.36363636363637" width="304.33768656716416" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="162.0909090909091" width="182.19339622641508" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="188.81818181818184" width="119.98014121800531" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="215.54545454545456" width="145.07788559754852" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="242.27272727272728" width="176.87035315985133" height="17.81818181818184" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="268.99999999999994" width="103.24524546660768" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<rect x="175.0" y="295.7272727272727" width="208.9402767662054" height="17.818181818181813" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,48%,46%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,448.026316,37.363636)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">29.1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,325.235004,64.090909)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">16.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,346.996124,90.818182)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">18.3</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,416.150852,117.545455)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">25.7</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,479.337687,144.272727)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">32.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,357.193396,171)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">19.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,294.980141,197.727273)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">12.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,320.077886,224.454545)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">15.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,351.870353,251.181818)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">18.9</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,278.245245,277.909091)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">11.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,383.940277,304.636364)">
+							<text x="-8.75" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">22.3</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 175,24 L 175,318 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 175,24 L 170,24 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,50.727273 L 170,50.727273 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,77.454545 L 170,77.454545 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,104.181818 L 170,104.181818 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,130.909091 L 170,130.909091 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,157.636364 L 170,157.636364 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,184.363636 L 170,184.363636 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,211.090909 L 170,211.090909 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,237.818182 L 170,237.818182 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,264.545455 L 170,264.545455 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,291.272727 L 170,291.272727 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 175,318 L 170,318 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,170,37.363636)">
+							<text x="-105.53" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Switzerland Super League</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,64.090909)">
+							<text x="-79.44" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Spain LIGA BBVA</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,90.818182)">
+							<text x="-101.09" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Scotland Premier League</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,117.545455)">
+							<text x="-106.92999999999999" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Portugal Liga ZON Sagres</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,144.272727)">
+							<text x="-76.38" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Poland Ekstraklasa</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,171)">
+							<text x="-91.37" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Netherlands Eredivisie</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,197.727273)">
+							<text x="-51.1" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Italy Serie A</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,224.454545)">
+							<text x="-94.71000000000001" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Germany 1. Bundesliga</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,251.181818)">
+							<text x="-60.540000000000006" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">France Ligue 1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,277.909091)">
+							<text x="-99.42" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">England Premier League</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,170,304.636364)">
+							<text x="-96.1" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Belgium Jupiler League</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 175,24 L 550,24 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 175,24 L 175,19 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 268.75,24 L 268.75,19 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 362.5,24 L 362.5,19 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 456.25,24 L 456.25,19 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 550,24 L 550,19 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,175,19)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,268.75,19)">
+							<text x="-5.0" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,362.5,19)">
+							<text x="-5.0" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">20</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,456.25,19)">
+							<text x="-5.0" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">30</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,550,19)">
+							<text x="-5.0" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">40</text>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
