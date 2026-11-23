@@ -1,0 +1,8 @@
+variable,group,cohort,rows,breakouts,rate
+age_band,≤20,all,1475,708,0.4800
+age_band,21–24,all,5325,1400,0.2629
+age_band,25–29,all,7180,956,0.1331
+age_band,30–34,all,3559,207,0.0582
+age_band,35+,all,463,18,0.0389
+age_band,≤20,young,1475,708,0.4800
+age_band,21–24,young,5325,1400,0.2629

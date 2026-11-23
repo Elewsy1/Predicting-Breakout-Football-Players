@@ -1,0 +1,50 @@
+area,check,value,action
+ratings,rows,183978,
+ratings,duplicate row ids,0,
+ratings,rows with no overall rating (all fields empty),836,removed
+ratings,attacking_work_rate: values outside low/medium/high,4286,missing in features.py
+ratings,defensive_work_rate: values outside low/medium/high,6823,missing in features.py
+ratings,numeric fields outside 0-100,0,checked
+ratings,valid rows missing the same 7 skills (dated 2007-02 to 2010-02),1877,kept; left missing for imputation
+ratings,valid rows with potential < overall,1071,kept (EA's own values)
+ratings,duplicate valid player/date records,0,keep the last by id
+ratings,"isolated spikes (>= 8 from both neighbours, which agree within 2)",21,removed
+ratings,rows used,183121,
+players,rows,11060,
+players,duplicate player_api_id,0,checked
+players,players sharing a name (different birthdays),375,"kept; IDs, not names, are keys"
+players,missing birthday/height/weight,0,
+players,birthday range,1967-01-23 to 1999-04-24,
+players,heights that are whole inches in cm,100.0%,
+players,height cm range,157.5-208.3,plausible; kept
+players,weight range lb (kg),117-243 (53.1-110.2),plausible; kg conversion in features.py
+players,BMI range,17.6-30.9,no outliers removed
+matches,rows,25979,
+matches,"duplicate ids / (league, season, date, home, away)",0,
+matches,home team equals away team,0,
+matches,dates outside 1 Jul-30 Jun of the named season,0,
+matches,missing or negative goals,0,
+matches,max goals by one team,10,plausible; kept
+matches,team ids missing from Team table,0,
+matches,teams in two leagues in one season,0,
+matches,league 1 2013/2014: share of expected matches present,0.05,flagged via league_match_coverage
+matches,league 10257 2011/2012: share of expected matches present,0.942,flagged via league_match_coverage
+matches,league 24558 2011/2012: share of expected matches present,0.9,flagged via league_match_coverage
+lineups,lineup slots without a player id,29257,starts undercounted; flagged via club_lineup_coverage
+lineups,team lineups with all 11 ids missing,1516,
+lineups,matches with both lineups fully missing,758,
+lineups,player listed for both teams in one match (away slot is the error),13,home entry kept
+lineups,player listed twice in one lineup,1,counted once
+lineups,"slots with pitch Y = 0 (placeholder, X = 0)",22,treated as missing position
+lineups,slots with a player id but no pitch Y,14663,"position from other starts, else missing"
+panel,rows (2009-2015) / players,25502 / 8903,
+panel,young rows (completed age <= 24) / players,9687 / 4724,
+panel,rows missing the 7 late-added skills,199,kept; all in 2009
+panel,rows with potential < overall,130,kept
+panel,rows without a position,808,flagged via position_missing
+panel,rows with |change| >= 10 / >= 15,385 / 67,kept (EA re-ratings)
+panel,horizon_days min / median / max,7 / 365 / 696,
+panel,"rows 2009-2014 with horizon < 180 days, by year","{2013: 243, 2014: 268}",kept; horizon_days added
+panel,"breakout rate 2009-2013, horizon < 180 days vs >= 180 days",0.053 vs 0.184,sensitivity check in evaluation
+panel,rows with club_lineup_coverage < 0.9,1682,kept; flagged
+panel,rows with league_match_coverage < 0.95,716,kept; flagged

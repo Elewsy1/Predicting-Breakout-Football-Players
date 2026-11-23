@@ -1,0 +1,29 @@
+# Part 1: means and medians, excluded vs included starters
+variable,excluded_mean,included_mean,excluded_median,included_median
+age,27.5798,26.1398,27.0,26.0
+overall_rating,64.799,70.292,64.0,71.0
+potential_gap,3.5357,4.8321,3.0,4.0
+starts,10.698,16.9271,8.0,17.0
+start_share,0.3155,0.4732,0.25,0.4474
+young,0.3017,0.3799,0.0,0.0
+# Part 2: exclusion rate by year and league
+variable,group,candidates,included,excluded_rate
+all,all,28810,25502,0.1148
+year,2009,3662,3317,0.0942
+year,2010,3924,3535,0.0991
+year,2011,4125,3618,0.1229
+year,2012,4228,3741,0.1152
+year,2013,4287,3791,0.1157
+year,2014,4133,3629,0.1219
+year,2015,4451,3871,0.1303
+league,Belgium Jupiler League,2170,1732,0.2018
+league,England Premier League,3258,3164,0.0289
+league,France Ligue 1,3253,3045,0.0639
+league,Germany 1. Bundesliga,2879,2755,0.0431
+league,Italy Serie A,3396,3230,0.0489
+league,Netherlands Eredivisie,2677,2238,0.164
+league,Poland Ekstraklasa,1682,1355,0.1944
+league,Portugal Liga ZON Sagres,2602,2011,0.2271
+league,Scotland Premier League,2014,1604,0.2036
+league,Spain LIGA BBVA,3297,3129,0.051
+league,Switzerland Super League,1582,1239,0.2168
