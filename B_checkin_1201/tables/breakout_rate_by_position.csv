@@ -1,0 +1,11 @@
+variable,group,cohort,rows,breakouts,rate
+position,Defender,all,5813,980,0.1686
+position,Forward,all,3011,536,0.1780
+position,Goalkeeper,all,1489,262,0.1760
+position,Midfielder,all,6881,1249,0.1815
+position,Unknown,all,808,262,0.3243
+position,Defender,young,2047,608,0.2970
+position,Forward,young,1253,366,0.2921
+position,Goalkeeper,young,365,133,0.3644
+position,Midfielder,young,2837,865,0.3049
+position,Unknown,young,298,136,0.4564

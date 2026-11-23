@@ -1,0 +1,23 @@
+variable,group,cohort,rows,breakouts,rate
+league,Belgium Jupiler League,all,1373,306,0.2229
+league,England Premier League,all,2261,249,0.1101
+league,France Ligue 1,all,2152,406,0.1887
+league,Germany 1. Bundesliga,all,1958,303,0.1547
+league,Italy Serie A,all,2266,290,0.1280
+league,Netherlands Eredivisie,all,1590,309,0.1943
+league,Poland Ekstraklasa,all,804,261,0.3246
+league,Portugal Liga ZON Sagres,all,1349,347,0.2572
+league,Scotland Premier League,all,1161,212,0.1826
+league,Spain LIGA BBVA,all,2234,358,0.1603
+league,Switzerland Super League,all,854,248,0.2904
+league,Belgium Jupiler League,young,589,218,0.3701
+league,England Premier League,young,683,157,0.2299
+league,France Ligue 1,young,837,268,0.3202
+league,Germany 1. Bundesliga,young,818,227,0.2775
+league,Italy Serie A,young,575,146,0.2539
+league,Netherlands Eredivisie,young,854,243,0.2845
+league,Poland Ekstraklasa,young,295,135,0.4576
+league,Portugal Liga ZON Sagres,young,510,181,0.3549
+league,Scotland Premier League,young,526,145,0.2757
+league,Spain LIGA BBVA,young,713,218,0.3058
+league,Switzerland Super League,young,400,170,0.4250

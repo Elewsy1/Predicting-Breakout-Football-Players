@@ -1,0 +1,21 @@
+cohort,variant,precision_at_10pct_logistic,precision_at_10pct_hgb,average_precision_logistic,average_precision_hgb
+all,ea_gap_only,0.4130,0.4130,0.3430,0.3410
+all,gap_plus_age,0.4530,0.4360,0.3820,0.3550
+all,rating_no_potential,0.4400,0.4710,0.3750,0.3890
+all,rating_only,0.4400,0.4470,0.3800,0.3880
+all,rating_only − history,0.4410,0.4690,0.3800,0.3890
+all,rating_only − body/foot/work,0.4270,0.4550,0.3770,0.3910
+all,combined,0.5180,0.5410,0.4480,0.4590
+all,combined − new match feats,0.5050,0.5180,0.4420,0.4470
+all,combined − coverage flags,0.5120,0.5340,0.4500,0.4570
+all,combined + excluded calendar feats,0.5040,0.5410,0.4380,0.4560
+young,ea_gap_only,0.5430,0.5430,0.4240,0.4140
+young,gap_plus_age,0.5550,0.4870,0.4560,0.3980
+young,rating_no_potential,0.5590,0.5820,0.4560,0.4540
+young,rating_only,0.5730,0.5680,0.4600,0.4530
+young,rating_only − history,0.5710,0.5610,0.4610,0.4540
+young,rating_only − body/foot/work,0.5610,0.5470,0.4560,0.4470
+young,combined,0.6500,0.6500,0.5330,0.5240
+young,combined − new match feats,0.6320,0.6410,0.5290,0.5180
+young,combined − coverage flags,0.6410,0.6600,0.5350,0.5220
+young,combined + excluded calendar feats,0.6360,0.6480,0.5210,0.5280

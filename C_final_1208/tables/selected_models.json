@@ -1,0 +1,192 @@
+{
+  "selection_rule": "per cohort: highest mean Precision@10% over 2011-2013 (rolling, expanding window), tie-break mean average precision; refit on 2009-2013",
+  "window_check": {
+    "pairs": 104,
+    "mean_diff_p10": -0.0096,
+    "share_window_better": 0.298,
+    "rule": "adopt only if mean gain > 1 pp and > 75% of (candidate, fold) pairs improve",
+    "verdict": "keep expanding window (2009-2013 refit)"
+  },
+  "cohorts": {
+    "all": {
+      "primary": {
+        "train_scope": "all",
+        "model": "logreg",
+        "feature_set": "combined",
+        "params": {
+          "C": 0.1,
+          "class_weight": null,
+          "pca_skills": 3
+        },
+        "fixed_params": {
+          "max_iter": 5000
+        },
+        "features": [
+          "overall_rating",
+          "crossing",
+          "finishing",
+          "heading_accuracy",
+          "short_passing",
+          "volleys",
+          "dribbling",
+          "curve",
+          "free_kick_accuracy",
+          "long_passing",
+          "ball_control",
+          "acceleration",
+          "sprint_speed",
+          "agility",
+          "reactions",
+          "balance",
+          "shot_power",
+          "jumping",
+          "stamina",
+          "strength",
+          "long_shots",
+          "aggression",
+          "interceptions",
+          "positioning",
+          "vision",
+          "penalties",
+          "marking",
+          "standing_tackle",
+          "sliding_tackle",
+          "gk_diving",
+          "gk_handling",
+          "gk_kicking",
+          "gk_positioning",
+          "gk_reflexes",
+          "rating_change_prev_year",
+          "has_prev_rating",
+          "rating_change_in_window",
+          "age_years",
+          "height_cm",
+          "weight_kg",
+          "left_footed",
+          "attacking_work_rate_ord",
+          "defensive_work_rate_ord",
+          "league",
+          "potential",
+          "potential_gap",
+          "potential_change_prev_year",
+          "starts",
+          "start_share",
+          "club_ppg",
+          "rating_vs_teammates",
+          "prev_starts",
+          "starts_change",
+          "has_prev_season",
+          "team_mean_rating",
+          "team_rating_rank_pct",
+          "club_lineup_coverage",
+          "position"
+        ],
+        "validation": {
+          "mean_precision_at_10pct": 0.5792,
+          "precision_at_10pct_by_year": {
+            "2011": 0.6925,
+            "2012": 0.6123,
+            "2013": 0.4327
+          },
+          "mean_average_precision": 0.5065
+        }
+      },
+      "baselines": {
+        "ea_gap": 0.4126,
+        "random": 0.1657
+      }
+    },
+    "young": {
+      "primary": {
+        "train_scope": "young",
+        "model": "hist_gb",
+        "feature_set": "combined",
+        "params": {
+          "class_weight": "balanced",
+          "learning_rate": 0.03,
+          "max_leaf_nodes": 3
+        },
+        "fixed_params": {
+          "max_iter": 300,
+          "min_samples_leaf": 40,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "random_state": 42
+        },
+        "features": [
+          "overall_rating",
+          "crossing",
+          "finishing",
+          "heading_accuracy",
+          "short_passing",
+          "volleys",
+          "dribbling",
+          "curve",
+          "free_kick_accuracy",
+          "long_passing",
+          "ball_control",
+          "acceleration",
+          "sprint_speed",
+          "agility",
+          "reactions",
+          "balance",
+          "shot_power",
+          "jumping",
+          "stamina",
+          "strength",
+          "long_shots",
+          "aggression",
+          "interceptions",
+          "positioning",
+          "vision",
+          "penalties",
+          "marking",
+          "standing_tackle",
+          "sliding_tackle",
+          "gk_diving",
+          "gk_handling",
+          "gk_kicking",
+          "gk_positioning",
+          "gk_reflexes",
+          "rating_change_prev_year",
+          "has_prev_rating",
+          "rating_change_in_window",
+          "age_years",
+          "height_cm",
+          "weight_kg",
+          "left_footed",
+          "attacking_work_rate_ord",
+          "defensive_work_rate_ord",
+          "league",
+          "potential",
+          "potential_gap",
+          "potential_change_prev_year",
+          "starts",
+          "start_share",
+          "club_ppg",
+          "rating_vs_teammates",
+          "prev_starts",
+          "starts_change",
+          "has_prev_season",
+          "team_mean_rating",
+          "team_rating_rank_pct",
+          "club_lineup_coverage",
+          "position"
+        ],
+        "validation": {
+          "mean_precision_at_10pct": 0.7025,
+          "precision_at_10pct_by_year": {
+            "2011": 0.8357,
+            "2012": 0.7083,
+            "2013": 0.5634
+          },
+          "mean_average_precision": 0.5604
+        }
+      },
+      "baselines": {
+        "ea_gap": 0.5427,
+        "random": 0.2806
+      }
+    }
+  }
+}

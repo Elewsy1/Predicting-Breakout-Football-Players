@@ -1,35 +1,55 @@
-# Check-in 2 (1 Dec) · Model comparisons, validation, feature explanations, draft report and slides
+# Predicting Breakout Football Players — Check-in 2 (1 December)
 
-Bring everything in `A_checkin_1124/` plus this folder.
+Team: Shiyan Wang, Junius, Noah Feng, Xianghe Meng · IDSC-GH 5010, Fall 2026
 
-| Requirement | Where |
+Every 1 August we want to rank football players so that a scout who can only follow 10% of them
+finds as many "breakouts" as possible (players whose FIFA rating jumps by 3+ points in the next
+year). This folder contains the whole project so far, from cleaning to the final test, and runs on
+its own.
+
+## What is in this folder
+
+| Check-in item | Where |
 |---|---|
-| Model comparisons | [03_modelling.ipynb](03_modelling.ipynb); [tables/best_settings.csv](tables/best_settings.csv), [tables/validation_summary.csv](tables/validation_summary.csv) |
-| Validation | Rolling years 2011–2013 ([tables/validation_scores.csv](tables/validation_scores.csv)); final 2014 test in [04_evaluation_explanations.ipynb](04_evaluation_explanations.ipynb), [figures/precision_by_year.png](figures/precision_by_year.png) |
-| Feature explanations | [figures/permutation_importance_groups.png](figures/permutation_importance_groups.png), [figures/logistic_coefficients.png](figures/logistic_coefficients.png), [figures/feature_set_comparison.png](figures/feature_set_comparison.png) |
-| Scouting simulation (the action) | [figures/headline_scouting_2014.png](figures/headline_scouting_2014.png), [tables/scouting_summary_2014.csv](tables/scouting_summary_2014.csv) |
-| Sensitivity checks | [figures/sensitivity.png](figures/sensitivity.png), [tables/sensitivity_summary.csv](tables/sensitivity_summary.csv) |
-| Draft report | [report_draft.md](report_draft.md) (all six course parts) |
-| Draft slides | [slides_outline.md](slides_outline.md) (outline; deck still to build) |
+| Model comparisons | `03_modelling.ipynb`, `tables/best_settings.csv`, `figures/validation_precision_by_year.png` |
+| Validation | rolling years 2011–2013 in `03_modelling.ipynb`; one final test on 2014 in `04_evaluation.ipynb` |
+| Feature explanations | `figures/permutation_importance_groups.png`, `figures/logistic_coefficients.png`, `figures/feature_set_comparison.png` |
+| Draft report | `report_draft.md` |
+| Draft slides | `slides_outline.md` |
 
-Code: [`src/modelling.py`](../src/modelling.py) (selection, ~2 min) and
-[`src/evaluation.py`](../src/evaluation.py) (evaluation, ~5 min). Reproduce from the repository root
-after check-in 1's steps:
-
-```sh
-jupyter nbconvert --to notebook --execute --inplace B_checkin_1201/03_modelling.ipynb
-jupyter nbconvert --to notebook --execute --inplace B_checkin_1201/04_evaluation_explanations.ipynb
+```
+01_data_cleaning.ipynb          cleaning and the checks we ran
+02_exploration_features.ipynb   plots, correlations, new features
+03_modelling.ipynb              choosing the model on 2011-2013
+04_evaluation.ipynb             final test on 2014, explanations, robustness checks
+report_draft.md                 draft report (all six parts)
+slides_outline.md               plan for the slides
+src/                            the code the notebooks call
+data/ tables/ figures/ predictions/   outputs (rebuilt when you run the notebooks)
 ```
 
-Folders: `predictions/` holds the validation and 2014 scores of every best model (input to the
-evaluation), `tables/` every result table and `selected_models.json`, `figures/` the report figures.
+## How to run
 
-## Results in one table (2014 test year, watch 10% of the cohort)
+1. Download `database.sqlite` from https://www.kaggle.com/datasets/hugomathien/soccer and put it in
+   `data/` (or set the environment variable `SOCCER_DB` to where it is).
+2. Install the packages (Python 3.11 or newer): `pip install -r requirements.txt`
+3. Run the four notebooks in order (about 12 minutes in total), in Jupyter or with:
 
-| Cohort | Our model | EA potential gap | Random | Model − EA [95% CI] |
-|---|---:|---:|---:|---:|
-| All players (watch 362) | 169 hits (46.7%) | 134 (37.0%) | 49 (13.5%) | +9.7 pp [4.1, 14.4] |
-| Young ≤ 24 (watch 138) | 76 hits (55.1%) | 63 (45.7%) | 33 (24.1%) | +9.4 pp [1.4, 18.8] |
+```sh
+jupyter nbconvert --to notebook --execute --inplace 01_data_cleaning.ipynb
+jupyter nbconvert --to notebook --execute --inplace 02_exploration_features.ipynb
+jupyter nbconvert --to notebook --execute --inplace 03_modelling.ipynb
+jupyter nbconvert --to notebook --execute --inplace 04_evaluation.ipynb
+```
 
-Selected on 2011–2013 only: logistic regression (all players) and gradient boosting trained on young
-players (young cohort), both on ratings + EA potential + match history.
+## Main result
+
+On the 2014 test year, watching the top 10%:
+
+| | Our model | EA's potential gap | Random |
+|---|---:|---:|---:|
+| All players (watch 362) | 169 breakouts (46.7%) | 134 (37.0%) | about 49 (13.5%) |
+| Young players (watch 138) | 76 (55.1%) | 63 (45.7%) | about 33 (24.1%) |
+
+The model does not need EA's potential to beat EA's list. The extra information comes from match
+history: playing time and how a player compares with his team.

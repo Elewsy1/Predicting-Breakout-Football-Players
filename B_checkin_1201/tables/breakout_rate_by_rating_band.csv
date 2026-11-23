@@ -1,0 +1,9 @@
+variable,group,cohort,rows,breakouts,rate
+rating_band,≤59,all,1097,667,0.6080
+rating_band,60–69,all,6646,1647,0.2478
+rating_band,70–79,all,8751,924,0.1056
+rating_band,80+,all,1508,51,0.0338
+rating_band,≤59,young,796,518,0.6508
+rating_band,60–69,young,3060,1048,0.3425
+rating_band,70–79,young,2658,519,0.1953
+rating_band,80+,young,286,23,0.0804
