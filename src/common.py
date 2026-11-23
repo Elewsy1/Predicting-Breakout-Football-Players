@@ -49,8 +49,16 @@ def database_path() -> Path:
     return Path(os.environ.get("SOCCER_DB", ROOT / "_local" / "database.sqlite"))
 
 
+RAW_ZIP = ROOT / "data_raw" / "database.sqlite.zip"   # the database, compressed (31 MB)
+
+
 def connect(path: Path | None = None) -> sqlite3.Connection:
     path = Path(path or database_path()).resolve()
+    if not path.exists() and RAW_ZIP.exists():          # first run: unzip the bundled copy
+        import zipfile
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with zipfile.ZipFile(RAW_ZIP) as z, open(path, "wb") as out:
+            out.write(z.read("database.sqlite"))
     if not path.exists():
         raise FileNotFoundError(f"Database not found at {path}; set $SOCCER_DB.")
     return sqlite3.connect(path.as_uri() + "?mode=ro", uri=True)

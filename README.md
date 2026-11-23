@@ -28,8 +28,10 @@ Mathien, H. (2016). *European Soccer Database*, Kaggle, version 10 (2016-10-23).
 https://www.kaggle.com/datasets/hugomathien/soccer. Original sources: football-data.mx-api.enetscores.com
 (matches, line-ups), sofifa.com (EA Sports FIFA ratings; FIFA data are EA Sports' property).
 
-Download and unzip it, then either put `database.sqlite` at `_local/database.sqlite` (ignored by git) or set
-the `SOCCER_DB` environment variable to its path. Never commit the database (313 MB).
+The database is included, compressed, as `data_raw/database.sqlite.zip` (31 MB; the original Kaggle
+file is 313 MB, above GitHub's 100 MB file limit). Nothing to do by hand: the first step that needs it
+unzips it to `_local/database.sqlite` (ignored by git). To use a copy elsewhere, set the `SOCCER_DB`
+environment variable to its path. Never commit the unzipped `database.sqlite`.
 
 ## Reproduce the analysis
 
@@ -62,6 +64,7 @@ check-in 2 = A + B, final submission = A + B + C.
 | [`A_checkin_1124/`](A_checkin_1124/README.md) | **24 Nov:** cleaned data and audits (`data/`), exploration notebook, plots, correlations, initial features, baseline, report sections 1–3 |
 | [`B_checkin_1201/`](B_checkin_1201/README.md) | **1 Dec:** model selection and evaluation notebooks, predictions, result tables and figures, draft report, slide outline |
 | [`C_final_1208/`](C_final_1208/README.md) | **8/10 Dec:** final report, slides and reflections (checklist and templates) |
+| `data_raw/` | The source database, zipped (unzipped automatically on first use) |
 | `src/` | All code: `common.py` (paths, splits, metrics), `cleaning.py`, `features.py`, `eda.py`, `modelling.py`, `evaluation.py` |
 | `docs/` | Work plan and the decision logs that still need team confirmation |
 | `_local/` | Your own copy of the database and course files (ignored by git) |
